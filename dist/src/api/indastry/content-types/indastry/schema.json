@@ -4,7 +4,8 @@
     "info": {
         "singularName": "indastry",
         "pluralName": "indastries",
-        "displayName": "Indastry"
+        "displayName": "Indastry",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true
@@ -18,12 +19,17 @@
             "type": "richtext"
         },
         "Image": {
-            "allowedTypes": [
-                "images"
-            ],
             "type": "media",
             "multiple": false,
-            "required": true
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "projects": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::project.project"
         }
     }
 }
