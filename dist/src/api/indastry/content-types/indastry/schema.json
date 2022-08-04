@@ -1,0 +1,29 @@
+{
+    "kind": "collectionType",
+    "collectionName": "indastries",
+    "info": {
+        "singularName": "indastry",
+        "pluralName": "indastries",
+        "displayName": "Indastry"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Content": {
+            "type": "richtext"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

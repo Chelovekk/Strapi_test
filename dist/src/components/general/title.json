@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_general_titles",
+    "info": {
+        "displayName": "Title",
+        "icon": "ad"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Theme": {
+            "type": "enumeration",
+            "enum": [
+                "t1",
+                "t2"
+            ]
+        }
+    }
+}

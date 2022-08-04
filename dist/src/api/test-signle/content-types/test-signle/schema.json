@@ -1,0 +1,21 @@
+{
+    "kind": "singleType",
+    "collectionName": "test_signles",
+    "info": {
+        "singularName": "test-signle",
+        "pluralName": "test-signles",
+        "displayName": "Test signle"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "QWE": {
+            "type": "string"
+        },
+        "EWQ": {
+            "type": "richtext"
+        }
+    }
+}

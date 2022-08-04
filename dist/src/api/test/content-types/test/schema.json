@@ -1,0 +1,27 @@
+{
+    "kind": "collectionType",
+    "collectionName": "tests",
+    "info": {
+        "singularName": "test",
+        "pluralName": "tests",
+        "displayName": "Test",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Test_test": {
+            "type": "string"
+        },
+        "Smth_json_test": {
+            "type": "json"
+        },
+        "Titles": {
+            "type": "component",
+            "repeatable": false,
+            "component": "general.title"
+        }
+    }
+}
