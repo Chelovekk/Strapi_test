@@ -1,0 +1,30 @@
+{
+    "kind": "collectionType",
+    "collectionName": "industries",
+    "info": {
+        "singularName": "industry",
+        "pluralName": "industries",
+        "displayName": "Industry",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Name": {
+            "type": "string",
+            "unique": true,
+            "default": "Blank",
+            "required": true
+        },
+        "Email": {
+            "type": "email"
+        },
+        "Seo": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.seo"
+        }
+    }
+}
