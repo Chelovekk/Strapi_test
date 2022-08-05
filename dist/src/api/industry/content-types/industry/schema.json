@@ -18,13 +18,25 @@
             "default": "Blank",
             "required": true
         },
-        "Email": {
-            "type": "email"
-        },
         "Seo": {
             "type": "component",
             "repeatable": true,
             "component": "shared.seo"
+        },
+        "Desc": {
+            "type": "text"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": true
+        },
+        "projects": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::project.project"
         }
     }
 }
