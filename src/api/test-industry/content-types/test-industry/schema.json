@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_industries",
+  "info": {
+    "singularName": "test-industry",
+    "pluralName": "test-industries",
+    "displayName": "TestIndustry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "Test",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
