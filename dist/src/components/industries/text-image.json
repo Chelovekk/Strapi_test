@@ -1,0 +1,31 @@
+{
+    "collectionName": "components_industries_text_images",
+    "info": {
+        "displayName": "Text/image",
+        "icon": "address-card"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "richtext"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false,
+            "private": true
+        },
+        "Position": {
+            "type": "enumeration",
+            "enum": [
+                "Right",
+                "Left"
+            ]
+        }
+    }
+}

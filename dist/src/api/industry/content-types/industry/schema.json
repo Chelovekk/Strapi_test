@@ -27,16 +27,22 @@
             "type": "text"
         },
         "Image": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
             "allowedTypes": [
                 "images"
-            ],
-            "type": "media",
-            "multiple": true
+            ]
         },
         "projects": {
             "type": "relation",
             "relation": "oneToMany",
             "target": "api::project.project"
+        },
+        "Rows": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.rows"
         }
     }
 }
