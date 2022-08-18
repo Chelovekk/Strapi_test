@@ -4,7 +4,8 @@
     "info": {
         "singularName": "project",
         "pluralName": "projects",
-        "displayName": "Project"
+        "displayName": "Project",
+        "description": ""
     },
     "options": {
         "draftAndPublish": true
@@ -18,12 +19,17 @@
             "type": "text"
         },
         "Image": {
-            "allowedTypes": [
-                "images"
-            ],
             "type": "media",
             "multiple": false,
-            "required": true
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "Info": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.rows"
         },
         "Seo": {
             "type": "component",

@@ -6,15 +6,30 @@
   },
   "options": {},
   "attributes": {
-    "Text_images": {
-      "type": "component",
-      "repeatable": true,
-      "component": "industries.text-image"
-    },
     "Hero": {
       "type": "component",
       "repeatable": false,
       "component": "industries.hero"
+    },
+    "Text/images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "industries.text-image"
+    },
+    "Left-slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "industries.left-slider"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "industries.services"
+    },
+    "Right-slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "industries.right-slider"
     }
   }
 }

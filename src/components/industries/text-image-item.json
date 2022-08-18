@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_industries_text_image_items",
+  "info": {
+    "displayName": "Text-image-item"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "enumeration",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "default": "Left"
+    }
+  }
+}

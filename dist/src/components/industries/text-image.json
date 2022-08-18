@@ -1,31 +1,15 @@
 {
     "collectionName": "components_industries_text_images",
     "info": {
-        "displayName": "Text/image",
-        "icon": "address-card"
+        "displayName": "Text-image",
+        "icon": "ad"
     },
     "options": {},
     "attributes": {
-        "Title": {
-            "type": "string"
-        },
-        "Description": {
-            "type": "richtext"
-        },
-        "Image": {
-            "allowedTypes": [
-                "images"
-            ],
-            "type": "media",
-            "multiple": false,
-            "private": true
-        },
-        "Position": {
-            "type": "enumeration",
-            "enum": [
-                "Right",
-                "Left"
-            ]
+        "Item": {
+            "type": "component",
+            "repeatable": true,
+            "component": "industries.text-image-item"
         }
     }
 }
