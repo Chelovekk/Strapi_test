@@ -3,5 +3,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const strapi_1 = __importDefault(require("strapi"));
+const strapi_1 = __importDefault(require("@strapi/strapi"));
 (0, strapi_1.default)({}).start();
