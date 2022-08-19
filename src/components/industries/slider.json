@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_industries_sliders",
+  "info": {
+    "displayName": "Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "industries.ultimate-item"
+    },
+    "Position": {
+      "type": "enumeration",
+      "enum": [
+        "rigth",
+        "left"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

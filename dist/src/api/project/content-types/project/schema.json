@@ -26,15 +26,16 @@
                 "images"
             ]
         },
-        "Info": {
-            "type": "component",
-            "repeatable": false,
-            "component": "industries.rows"
-        },
         "Seo": {
             "type": "component",
             "repeatable": false,
             "component": "shared.seo"
+        },
+        "Content": {
+            "type": "dynamiczone",
+            "components": [
+                "industries.hero"
+            ]
         }
     }
 }

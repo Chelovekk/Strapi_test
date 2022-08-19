@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_rewievers",
+    "info": {
+        "displayName": "Rewievers"
+    },
+    "options": {},
+    "attributes": {
+        "Name": {
+            "type": "string"
+        },
+        "Position": {
+            "type": "string"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "Quote": {
+            "type": "text"
+        },
+        "Feedback": {
+            "type": "text"
+        }
+    }
+}

@@ -1,11 +1,12 @@
 {
     "collectionName": "components_industries_services",
     "info": {
-        "displayName": "Services"
+        "displayName": "Services",
+        "description": ""
     },
     "options": {},
     "attributes": {
-        "Items": {
+        "Item": {
             "type": "component",
             "repeatable": true,
             "component": "industries.ultimate-item"

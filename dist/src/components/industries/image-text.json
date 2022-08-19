@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_industries_image_texts",
+    "info": {
+        "displayName": "Image/text",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "Item": {
+            "type": "component",
+            "repeatable": true,
+            "component": "industries.ultimate-item"
+        },
+        "Position": {
+            "type": "enumeration",
+            "enum": [
+                "rigth",
+                "left"
+            ]
+        }
+    }
+}
