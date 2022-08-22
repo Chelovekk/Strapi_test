@@ -9,14 +9,7 @@
     "Item": {
       "type": "component",
       "repeatable": true,
-      "component": "industries.ultimate-item"
-    },
-    "Position": {
-      "type": "enumeration",
-      "enum": [
-        "rigth",
-        "left"
-      ]
+      "component": "industries.ultimate-item-with-position"
     }
   }
 }

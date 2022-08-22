@@ -1,0 +1,40 @@
+{
+    "kind": "singleType",
+    "collectionName": "industry_homepages",
+    "info": {
+        "singularName": "industry-homepage",
+        "pluralName": "industry-homepages",
+        "displayName": "Industry Homepage",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "richtext"
+        },
+        "Image": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "industries": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::industry.industry"
+        },
+        "Seo": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.seo"
+        }
+    }
+}

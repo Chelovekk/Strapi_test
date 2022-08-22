@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_industries_clutches",
+    "info": {
+        "displayName": "Clutch"
+    },
+    "options": {},
+    "attributes": {
+        "Review_count": {
+            "type": "string"
+        },
+        "Rating_value": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "collectionName": "components_industries_ultimate_item_with_positions",
+    "info": {
+        "displayName": "Ultimate_item_with_position"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "richtext"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "Position": {
+            "type": "enumeration",
+            "enum": [
+                "left",
+                "right"
+            ],
+            "default": "left"
+        },
+        "Link": {
+            "type": "string"
+        }
+    }
+}

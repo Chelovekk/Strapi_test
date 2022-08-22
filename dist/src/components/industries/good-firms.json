@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_industries_good_firms",
+    "info": {
+        "displayName": "Good firms"
+    },
+    "options": {},
+    "attributes": {
+        "Review_count": {
+            "type": "string"
+        },
+        "Rating_value": {
+            "type": "string"
+        }
+    }
+}

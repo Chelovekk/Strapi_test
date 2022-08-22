@@ -1,0 +1,32 @@
+{
+    "collectionName": "components_industries_achievements",
+    "info": {
+        "displayName": "Achievements"
+    },
+    "options": {},
+    "attributes": {
+        "Clutch": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.clutch"
+        },
+        "Good_firms": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.good-firms"
+        },
+        "Behance": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.behance"
+        },
+        "Upwork": {
+            "type": "component",
+            "repeatable": false,
+            "component": "industries.upwork"
+        },
+        "Title": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "collectionName": "components_shared_ultimate_item_with_positions",
+    "info": {
+        "displayName": "Ultimate_item_with_position"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "richtext"
+        },
+        "Position": {
+            "type": "enumeration",
+            "enum": [
+                "right",
+                "left"
+            ],
+            "default": "right"
+        },
+        "Image": {
+            "allowedTypes": [
+                "images"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_industries_ultimate_items",
+  "info": {
+    "displayName": "Ultimate_item_with_link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Descriptiom": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

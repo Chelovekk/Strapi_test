@@ -1,0 +1,12 @@
+{
+    "collectionName": "components_industries_upworks",
+    "info": {
+        "displayName": "Upwork"
+    },
+    "options": {},
+    "attributes": {
+        "Percent": {
+            "type": "string"
+        }
+    }
+}

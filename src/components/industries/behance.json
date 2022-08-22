@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_industries_behances",
+  "info": {
+    "displayName": "Behance"
+  },
+  "options": {},
+  "attributes": {
+    "Followers_count": {
+      "type": "string"
+    },
+    "Projects": {
+      "type": "string"
+    }
+  }
+}

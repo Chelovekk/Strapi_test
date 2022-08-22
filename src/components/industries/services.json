@@ -9,7 +9,7 @@
     "Item": {
       "type": "component",
       "repeatable": true,
-      "component": "industries.ultimate-item"
+      "component": "shared.ultimate-item"
     }
   }
 }
